@@ -1,4 +1,4 @@
-baseURL = "javiercaram.github.io/cuatrobis/"
+baseURL = "javiercaram.github.io/cuatrobis/" # Corregido
 languageCode = "es-es"
 title = "Mi Repositorio Cuatro"
 theme = "PaperMod"
