@@ -1,0 +1,36 @@
+baseURL = "https://javiercaram.github.io/cuatro/"
+languageCode = "es-es"
+title = "Mi Repositorio Cuatro"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+disableScrollToTop = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"] # Para búsqueda
+
+[minify]
+  disableXML = true
+  disableHTML = true
+
+[params]
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionPage = true
+  disableSpecial1stPost = false
+  disableAnchoredHeadings = false
+  disableHeadingEmoji = false
+  hideSummary = false
+  disableHugoGeneratorInject = false
+
+[params.homeInfoParams]
+  Title = "¡Hola! 👋"
+  Content = "Bienvenido a mi sitio de Hugo. Empieza a escribir tus posts aquí."
