@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://javiercaram.github.io/cuatro/sitemap.xml
