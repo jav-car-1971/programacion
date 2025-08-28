@@ -1,4 +1,4 @@
-baseURL = "https://jav-car-1971.github.io/cuatrobis/" # Corregido
+baseURL = "https://jav-car-1971.github.io/programacion/" # Corregido
 languageCode = "es-es"
 title = "Mi Repositorio Cuatro"
 theme = "PaperMod"
@@ -31,6 +31,6 @@ disableScrollToTop = true
   hideSummary = false
   disableHugoGeneratorInject = false
 
-[params.homeInfoParams]
-  Title = "¡Hola! 👋"
-  Content = "Bienvenido a mi sitio de Hugo. Empieza a escribir tus posts aquí."
+# [params.homeInfoParams]
+#  Title = "¡Hola Mundo! 👋"
+#  Content = "..."
