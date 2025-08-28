@@ -1,6 +1,6 @@
 baseURL = "https://jav-car-1971.github.io/programacion/" # Corregido
 languageCode = "es-es"
-title = "Mi Repositorio Cuatro"
+title = "Notas"
 theme = "PaperMod"
 
 enableRobotsTXT = true
