@@ -1,0 +1,26 @@
+{{- $src := .Get "src" -}}
+{{- $image := .Page.Resources.GetMatch $src -}}
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+    {{- if .Get "link" -}}
+        <a href="{{ .Get "link" }}" {{ with .Get "target" }}target="{{ . }}"{{ end }} {{ with .Get "rel" }}rel="{{ . }}"{{ end }}>
+    {{- end -}}
+
+    {{- with $image -}}
+        <img src="{{ .RelPermalink }}" alt="{{ $.Get "alt" | default (.Get "title") }}" />
+    {{- else -}}
+        <!-- Fallback for images in static folder or external URLs -->
+        <img src="{{ $src | safeURL }}" alt="{{ $.Get "alt" | default (.Get "title") }}" />
+    {{- end -}}
+
+    {{- if .Get "link" -}}
+        </a>
+    {{- end -}}
+
+    {{- if or (.Get "title") (.Get "caption") -}}
+        <figcaption>
+            {{ with .Get "title" }}<h4>{{ . }}</h4>{{ end }}
+            {{ with .Get "caption" }}<p>{{ . | .Page.RenderString }}</p>{{ end }}
+        </figcaption>
+    {{- end -}}
+</figure>
