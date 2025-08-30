@@ -1,66 +1,67 @@
----
+--- 
 title: "Instalando Linux Mint en Máquina Virtual"
 date: 2025-08-30
-draft: false
-tags:
-- linux
-- linux mint
-- virtualbox
+draft: false 
+tags: 
+- linux 
+- linux mint 
+- virtualbox 
 ---
-Con el objetivo de preparar un entorno de escritorio aislado para testeos y desarrollo, descartamos las versiones, Cinnamon y MATE a favor de XFCE por su bajo consumo de recursos.
+Con el objetivo de preparar un entorno de escritorio aislado para testeos y desarollo, descartamos las versiones, Cinnamon y MATE a favor de XFCE por su bajo consumo de recursos,.
 
-Después de descargar el ISO desde la página oficial y una vez configurada la máquina virtual asignándole los recursos necesarios, comenzamos la instalación:
+Despuès de descargar el ISO
+**ISO** desde la página oficial y una vez configurada la máquina virtual asignándole los recursos necesarios, comenzamos la instalación:
+![[001.png]]
 
-![Configuración de la máquina virtual](Pasted image 20250830131549.png)
+Al arrancar la máquina, VirtualBoxVM te vuelve a pedir la dirección del ISO. 
+![[002.png]]
 
-![Creación del disco virtual](Pasted image 20250830132158.png)
-
-Al arrancar la máquina, VirtualBoxVM te vuelve a pedir la dirección del ISO.
-
-Una vez aclarado ese punto, la máquina arranca en modo LIVE.
-
-![Menú de instalación en modo LIVE](Pasted image 20250830132557.png)
+Una vez aclarado ese punto, la máquina arranca en modo LIVE
+![[003.png]]
 
 El menu ofrece seleccionar el idioma.
 
-![Selección de idioma](Pasted image 20250830132850.png)
+![[004.png]]
 
-La distribuciòn de teclado de preferencia del usuario. Elijo UK porque alguna vez, con alguna distribución, tuve problemas de compatibilidad.
+La distribucciòn de teclado de preferencia del usuario. Elijo UK porque alguna vez, con alguna distribución, tuve problemas de compatibilidad.
 
-![Selección de teclado](Pasted image 20250830133050.png)
-
+![[005.png]]
+    
 Lo que viene después asusta un poco, si no fuera porque es una máquina virtual y no hay nada que borrar porque justamente es un entorno totalmente aislado.
 
-![Tipo de instalación](Pasted image 20250830133253.png)
+![[006.png]]
 
-La zona horaria.
 
-![Selección de zona horaria](Pasted image 20250830133402.png)
+La zona horaria
 
-El nombre del usuario y el password. Este paso es importante, para tener algún control sobre algunos comandos "sudo".
+![[007.png]]
 
-![Creación de usuario y contraseña](Pasted image 20250830133444.png)
+El nombre del usuario y el password. Este paso es importante, para tener algún control sobre algunos comandos "sudo". 
 
-![Resumen del usuario](Pasted image 20250830133559.png)
+![[008.png]]
+
+
+
 
 En pocos minutos, el sistema operativo está instalado y la máquina funcionando.
 
-![Proceso de instalación](Pasted image 20250830134941.png)
+![[009.png]]
 
-Hay que confirmar que se borre el medio de instalación. Eso no borra el ISO original, ya que estaba fuera de la carpeta asignada a la máquina virtual, por lo que queda disponible en su carpeta para seguir utilizándolo.
+Hay que confirmar que se borre el medio de instalación. Eso no borra el ISO original, ya que estaba fuera de la carpeta asignada a la máquina virtual, por lo que queda disponible en su carpeta para seguir ustilizándolo
 
-![Confirmación de borrado de medio](Pasted image 20250830135426.png)
+![[011.png]]
 
-Linux Mint te pide la contraseña para arrancar.
 
-![Pantalla de login](Pasted image 20250830135540.png)
+Linux Mint te pide la contraseña para arrancar
+
+
 
 Te da la bienvenida.
 
-![Pantalla de bienvenida](Pasted image 20250830135720.png)
 
 Y listo.
 
-![Escritorio de Linux Mint](Pasted image 20250830135838.png)
 
-Tratándose en este caso de una máquina virtual, no hay que olvidar que para que el teclado pueda operar fuera de la máquina virtual, debe presionarse una vez la tecla control de la derecha solamente.
+
+Tratándose en este caso de una máquina virtual, no hay que olvidar que para que el teclado pueda operar fuera de la máquina virtual, debe presionarse una vez la tecla control de la derecha solamente.  
+ 
