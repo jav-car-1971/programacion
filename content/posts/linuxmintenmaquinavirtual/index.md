@@ -1,4 +1,4 @@
- ---
+---
 title: "Instalando Linux Mint en Máquina Virtual"
 date: 2025-08-30
 draft: false
